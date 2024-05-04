@@ -11,5 +11,6 @@ print('Modified list: ', my_list)
 my_dict = {'apple': 'яблоко', 'banana': 'банан', 'orange': 'апельсин'}
 print(my_dict)
 print(my_dict['orange'])
-my_dict.setdefault('kiwi', 'киви')
+# my_dict.setdefault('kiwi', 'киви')
+my_dict['kiwi'] = 'киви'
 print(my_dict)
